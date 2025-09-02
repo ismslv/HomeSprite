@@ -66,6 +66,12 @@ Frames should be:
 
 Then you can click "submit" button and send me the file, if you want it to be added to the Matrix gallery.
 
+## How to remove character
+
+- Open tray menu → Settings → "Open app folder".
+- Remove needed character's folder
+- Restart HomeSprite
+
 ## Speech
 
 One of the main abilities of the Sprite is the ability to speak. You can create lines for a character when creating a new one in Matrix (only "greeting" type for now), also you can send any text to a "say" command (see Scripting).
