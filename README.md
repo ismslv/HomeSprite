@@ -40,7 +40,25 @@ sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
 ```
 
 > [!NOTE]
-> Due to how some linuxes display tray menu, Linux version contains a special, compact version of the menu.
+> Due to how some distros display tray menu, Linux version contains a special, compact version of the menu.
+
+## How to create your Sprite
+
+First, open the [Matrix](https://trinketos.org/matrix/).
+
+If you want to download some character, click on its card, and in the editor click the button "Export to .sprite".
+
+If you want to create your own character, click the "New" card. Add your frames to the animations, enter name aand other data, and export the file in the same manner.
+
+Frames should be:
+
+- Square png files without background
+- Black and white
+- Preferably in pixel-art style
+- 256×256 (or down to 48×48 if they are pixel perfect)
+- With a little space around, but not too small
+
+Then you can click "submit" button and send me the file, if you want it to be added to the Matrix gallery.
 
 ## Speech
 
