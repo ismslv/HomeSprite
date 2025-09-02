@@ -1,6 +1,4 @@
-# HomeSprite
-
-<img src="https://trinketos.org/images/hs_icon.png" width="200px"/>
+<p align="center""><img src="https://img.itch.zone/aW1nLzIzMDEzMjkxLnBuZw==/original/9LqRE5.png" width="500px"/></p>
 
 __Your desktop, but with a little magic.__
 
