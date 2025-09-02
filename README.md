@@ -1,17 +1,23 @@
 # HomeSprite
-Multiplatform retro desktop companion
+
+<img src="https://trinketos.org/images/hs_icon.png" width="200px"/>
+
+__Your desktop, but with a little magic.__
+
+HomeSprite is a companion app that brings animated Sprites from TrinketOS to your Windows, macOS, or Linux desktop.
+They live in your tray, wander around in their little frame, and can be any character that the community creates.
 
 ### Requirements
 
 I tested it on:
 
-- MacOS Sequoia 15.5
+- macOS Sequoia 15.5
 - Windows 11
 - Ubuntu 24.04
 
 In theory, it should support:
 
-- MacOS Arm (Apple Silicon)
+- macOS Arm (Apple Silicon)
 - Windows 10, 11
 - Linux x64
 - Linux Arm
@@ -22,7 +28,7 @@ In theory, it should support:
 
 Use .msi installer file
 
-#### MacOS
+#### macOS
 
 Mount .dmg file and drag app icon to Applications.
 
