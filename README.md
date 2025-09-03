@@ -26,6 +26,9 @@ In theory, it should support:
 
 Run .msi installer file.
 
+> [!NOTE]
+> App is unsigned, so Windows will show you the warning screen — select "run anyway".
+
 #### macOS
 
 Mount .dmg file and drag app icon to Applications.
