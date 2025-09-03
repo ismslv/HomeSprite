@@ -24,24 +24,32 @@ In theory, it should support:
 
 #### Windows
 
-Use .msi installer file
+Run .msi installer file.
 
 #### macOS
 
 Mount .dmg file and drag app icon to Applications.
+
+One-line command that will download the latest file, mount, install, remove dmg and run app:
+```zsh
+curl -sL $(curl -s https://api.github.com/repos/ismslv/HomeSprite/releases/latest | grep "browser_download_url.*\.dmg" | cut -d '"' -f 4) -o ~/homesprite.dmg && hdiutil attach ~/homesprite.dmg && cp -r /Volumes/HomeSprite*/HomeSprite*.app /Applications && hdiutil detach /Volumes/HomeSprite* && rm ~/homesprite.dmg && open /Applications/HomeSprite*.app
+```
 
 > [!NOTE]
 > App is unsigned, so on some systems you may have to take standard steps [like these](https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unknown-developer-mh40616/mac).
 
 #### Linux
 
-Extract .tar.gz and run homesprite. Here are one-line commands to download, unpack and run:
+Extract .tar.gz and run homesprite.
+One-line commands that will download the latest file, extract it, chmod and run app:
 
+__for x64__
 ```bash
-# for x64
 curl -sL $(curl -s https://api.github.com/repos/ismslv/HomeSprite/releases/latest | grep "browser_download_url.*homesprite-[0-9]*\.[0-9]*\.[0-9]*\.tar\.gz" | cut -d '"' -f 4) | tar -xzf - -C ~ && cd ~/homesprite-* && chmod +x homesprite && ./homesprite
+```
 
-# for ARM
+__for ARM__
+```bash
 curl -sL $(curl -s https://api.github.com/repos/ismslv/HomeSprite/releases/latest | grep "browser_download_url.*homesprite-[0-9]*\.[0-9]*\.[0-9]*-arm64\.tar\.gz" | cut -d '"' -f 4) | tar -xzf - -C ~ && cd ~/homesprite-* && chmod +x homesprite && ./homesprite
 ```
 
