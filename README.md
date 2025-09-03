@@ -7,18 +7,39 @@ They live in your tray, wander around in their little frame, and can be any char
 
 ### Requirements
 
-I tested it on:
+<table>
+  <tr>
+    <th>Was tested on</th>
+    <th>In theory, should support</th>
+    <th>Will definitely not run on</th>
+  </tr>
+  <tr>
+    <td>macOS Sequoia 15.5</td>
+    <td>macOS (Apple Silicon)</td>
+    <td>macOS Intel</td>
+  </tr>
+  <tr>
+    <td>Windows 11</td>
+    <td>Windows 10, 11 (x64)</td>
+    <td>Windows 8/7/...</td>
+  </tr>
+  <tr>
+    <td>Ubuntu 24.04</td>
+    <td>Windows 11 ARM</td>
+    <td>Windows 10 32-bit</td>
+  </tr>
+  <tr>
+    <td>Ubuntu 25.04 ARM</td>
+    <td>Linux x64</td>
+    <td>macOS Intel</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Linux ARM</td>
+    <td></td>
+  </tr>
+</table>
 
-- macOS Sequoia 15.5
-- Windows 11
-- Ubuntu 24.04
-
-In theory, it should support:
-
-- macOS Arm (Apple Silicon)
-- Windows 10, 11
-- Linux x64
-- Linux Arm
 
 ### How to install
 
